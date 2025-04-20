@@ -9,7 +9,7 @@ const Community: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-900">Join Our Community</h2>
           <div className="w-24 h-1 bg-primary-600 mx-auto mt-4"></div>
           <p className="mt-6 text-xl text-neutral-600 max-w-3xl mx-auto">
-            Connect with like-minded individuals and participate in building the future of decentralized governance.
+            Connect with like-minded individuals and participate in building the future of decentralized products across the UK.
           </p>
         </div>
 
@@ -18,7 +18,7 @@ const Community: React.FC = () => {
             <h3 className="text-2xl font-bold text-neutral-900 mb-6">Get Involved</h3>
             <p className="text-neutral-600 mb-8">
               MeridenDAO is a community-driven organization that relies on the contributions of its members. 
-              Whether you're a developer, designer, researcher, or simply interested in decentralized governance, 
+              Whether you're a developer, designer, researcher, or simply interested in digital assets, 
               there are many ways to get involved.
             </p>
             
@@ -29,7 +29,7 @@ const Community: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-neutral-900">Join the Discussion</h4>
-                  <p className="text-neutral-600">Participate in governance discussions on our forum and Discord server.</p>
+                  <p className="text-neutral-600">Participate in governance discussions on our forum and telegram group.</p>
                 </div>
               </div>
               
@@ -38,8 +38,8 @@ const Community: React.FC = () => {
                   <Github className="h-6 w-6 text-primary-600" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-medium text-neutral-900">Contribute to Code</h4>
-                  <p className="text-neutral-600">Help develop and improve our open-source governance tools.</p>
+                  <h4 className="text-lg font-medium text-neutral-900">Contribute</h4>
+                  <p className="text-neutral-600">Help us to engage develops and improve our open-source development and governance tools.</p>
                 </div>
               </div>
               
@@ -52,21 +52,11 @@ const Community: React.FC = () => {
                   <p className="text-neutral-600">Share our mission on social media and help grow the community.</p>
                 </div>
               </div>
-              
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Globe className="h-6 w-6 text-primary-600" />
-                </div>
-                <div>
-                  <h4 className="text-lg font-medium text-neutral-900">Participate in Governance</h4>
-                  <p className="text-neutral-600">Vote on proposals and help shape the future of the DAO.</p>
-                </div>
-              </div>
             </div>
             
             <div className="mt-10">
               <button className="px-8 py-4 bg-primary-600 text-white rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-200 font-medium text-lg">
-                Join Our Discord
+                Join Our Telegram 
               </button>
             </div>
           </div>

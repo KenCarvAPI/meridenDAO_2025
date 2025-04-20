@@ -10,17 +10,14 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-neutral-900 leading-tight">
-              Building <span className="text-primary-600">Crypto Communities</span> Beyond London
+              Building <span className="text-primary-600">Crypto Communities</span> Across the UK
             </h1>
             <p className="mt-6 text-xl text-neutral-600 max-w-2xl mx-auto lg:mx-0">
-              MeridenDAO is a community-led initiative aimed at building and strengthening the cryptocurrency scene in the cities outside of London.
+              MeridenDAO is a community-led initiative aimed at building and strengthening the cryptocurrency scene in the cities across the UK.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
               <button className="px-8 py-4 bg-primary-600 text-white rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-200 font-medium text-lg">
                 Join the Community
-              </button>
-              <button className="px-8 py-4 bg-white text-primary-600 rounded-lg shadow-lg hover:bg-neutral-50 transition-all duration-200 font-medium text-lg border border-primary-200">
-                Learn More
               </button>
             </div>
           </div>
@@ -36,20 +33,20 @@ const Hero: React.FC = () => {
         
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div className="p-6 bg-white bg-opacity-80 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-            <div className="font-bold text-3xl md:text-4xl text-primary-600">10K+</div>
-            <div className="mt-2 text-neutral-600">Community Members</div>
+            <div className="font-bold text-3xl md:text-4xl text-primary-600">7m+</div>
+            <div className="mt-2 text-neutral-600">UK Crypto Holders</div>
           </div>
           <div className="p-6 bg-white bg-opacity-80 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-            <div className="font-bold text-3xl md:text-4xl text-primary-600">20+</div>
-            <div className="mt-2 text-neutral-600">Cities Represented</div>
+            <div className="font-bold text-3xl md:text-4xl text-primary-600">78%</div>
+            <div className="mt-2 text-neutral-600">Live Outside of London</div>
           </div>
           <div className="p-6 bg-white bg-opacity-80 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-            <div className="font-bold text-3xl md:text-4xl text-primary-600">50+</div>
-            <div className="mt-2 text-neutral-600">Events Hosted</div>
+            <div className="font-bold text-3xl md:text-4xl text-primary-600">17</div>
+            <div className="mt-2 text-neutral-600">Key Cities in the North</div>
           </div>
           <div className="p-6 bg-white bg-opacity-80 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-            <div className="font-bold text-3xl md:text-4xl text-primary-600">24/7</div>
-            <div className="mt-2 text-neutral-600">Community Support</div>
+            <div className="font-bold text-3xl md:text-4xl text-primary-600">1000's</div>
+            <div className="mt-2 text-neutral-600">Of Community Members</div>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { CheckCircle2, Globe, Users, Shield } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 
 const About: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const About: React.FC = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-neutral-900">About MeridenDAO</h2>
           <div className="w-24 h-1 bg-primary-600 mx-auto mt-4"></div>
           <p className="mt-6 text-xl text-neutral-600 max-w-3xl mx-auto">
-            Building and strengthening cryptocurrency communities beyond London.
+            Building and strengthening cryptocurrency communities across the UK.
           </p>
         </div>
 
@@ -18,12 +18,10 @@ const About: React.FC = () => {
             <h3 className="text-2xl font-bold text-neutral-900 mb-6">Our Mission</h3>
             <p className="text-neutral-600 mb-6">
               MeridenDAO is a community-led initiative aimed at building and strengthening the cryptocurrency 
-              scene in the cities outside of London. We believe in the power of local communities to drive 
-              innovation and adoption in the cryptocurrency space.
+              scene across the UK. Our goal is to create vibrant, interconnected cryptocurrency communities that global blockchain projects can access.
             </p>
             <p className="text-neutral-600 mb-6">
-              Our goal is to create vibrant, interconnected cryptocurrency communities that foster education, 
-              collaboration, and growth beyond the traditional financial centers.
+              Our goal is to shape progressive crypto policy and accelerate sustainable growth across the UK’s digital asset ecosystem.
             </p>
 
             <div className="mt-8 space-y-4">
@@ -37,8 +35,8 @@ const About: React.FC = () => {
               <div className="flex items-start">
                 <CheckCircle2 className="h-6 w-6 text-primary-600 mr-3 flex-shrink-0" />
                 <p className="text-neutral-600">
-                  <span className="font-medium text-neutral-900">Inclusivity:</span> Creating opportunities for 
-                  everyone to participate in the cryptocurrency ecosystem.
+                  <span className="font-medium text-neutral-900">Activation:</span> Provide a platform for local
+                  communities to connect, build knowledge, and collaborate with blockchain projects.
                 </p>
               </div>
               <div className="flex items-start">
@@ -57,36 +55,6 @@ const About: React.FC = () => {
               alt="MeridenDAO Community"
               className="relative rounded-xl shadow-xl w-full h-auto object-cover z-10"
             />
-          </div>
-        </div>
-
-        <div className="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="bg-neutral-50 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
-            <div className="w-14 h-14 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
-              <Globe className="h-8 w-8 text-primary-600" />
-            </div>
-            <h3 className="text-xl font-bold text-neutral-900 mb-3">Local Impact</h3>
-            <p className="text-neutral-600">
-              Empowering local communities to build and grow their own cryptocurrency ecosystems.
-            </p>
-          </div>
-          <div className="bg-neutral-50 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
-            <div className="w-14 h-14 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
-              <Users className="h-8 w-8 text-primary-600" />
-            </div>
-            <h3 className="text-xl font-bold text-neutral-900 mb-3">Community First</h3>
-            <p className="text-neutral-600">
-              Prioritizing community feedback and involvement in all our initiatives and events.
-            </p>
-          </div>
-          <div className="bg-neutral-50 p-8 rounded-xl hover:shadow-xl transition-all duration-300">
-            <div className="w-14 h-14 bg-primary-100 rounded-lg flex items-center justify-center mb-6">
-              <Shield className="h-8 w-8 text-primary-600" />
-            </div>
-            <h3 className="text-xl font-bold text-neutral-900 mb-3">Education Focus</h3>
-            <p className="text-neutral-600">
-              Providing resources and knowledge to help communities understand and adopt cryptocurrency technologies.
-            </p>
           </div>
         </div>
       </div>
