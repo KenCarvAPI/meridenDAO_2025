@@ -50,9 +50,14 @@ const Navbar: React.FC = () => {
             </div>
           </div>
           <div className="hidden md:block">
-            <button className="bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-medium transition-colors duration-200">
-              Join DAO
-            </button>
+          <a
+  href="https://t.me/+IzgQXVV44_M1YmE0"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-primary-600 hover:bg-primary-700 text-white px-5 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+>
+  Join DAO
+</a>
           </div>
           <div className="md:hidden flex items-center">
             <button
@@ -81,9 +86,14 @@ const Navbar: React.FC = () => {
             Community
           </a>
           <div className="pt-4">
-            <button className="w-full bg-primary-600 hover:bg-primary-700 text-white px-5 py-3 rounded-md text-base font-medium transition-colors duration-200">
-              Join DAO
-            </button>
+          <a
+  href="https://t.me/+IzgQXVV44_M1YmE0"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block w-full text-center bg-primary-600 hover:bg-primary-700 text-white px-5 py-3 rounded-md text-base font-medium transition-colors duration-200"
+>
+  Join DAO
+</a>
           </div>
         </div>
       </div>

@@ -39,7 +39,7 @@ const Community: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-neutral-900">Contribute</h4>
-                  <p className="text-neutral-600">Help us to engage develops and improve our open-source development and governance tools.</p>
+                  <p className="text-neutral-600">Help us to engage developers and improve our open-source development and governance tools.</p>
                 </div>
               </div>
               
@@ -53,14 +53,18 @@ const Community: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+        
             <div className="mt-10">
-              <button className="px-8 py-4 bg-primary-600 text-white rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-200 font-medium text-lg">
-                Join Our Telegram 
-              </button>
-            </div>
+  <a
+    href="https://t.me/+IzgQXVV44_M1YmE0"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block px-8 py-4 bg-primary-600 text-white rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-200 font-medium text-lg"
+  >
+    Join Our Telegram
+  </a>
+</div>
           </div>
-          
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
@@ -93,8 +97,7 @@ const Community: React.FC = () => {
           </div>
         </div>
         
-        <div className="mt-24 bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl p-8 lg:p-12 relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-64 h-64 bg-primary-500 rounded-full transform translate-x-1/3 -translate-y-1/3 opacity-50"></div>
+        <div id="newsletter" className="mt-24 bg-gradient-to-br from-primary-600 to-primary-700 rounded-2xl p-8 lg:p-12 relative overflow-hidden">          <div className="absolute top-0 right-0 w-64 h-64 bg-primary-500 rounded-full transform translate-x-1/3 -translate-y-1/3 opacity-50"></div>
           <div className="absolute bottom-0 left-0 w-64 h-64 bg-primary-500 rounded-full transform -translate-x-1/3 translate-y-1/3 opacity-50"></div>
           
           <div className="relative z-10 text-center">
@@ -103,21 +106,30 @@ const Community: React.FC = () => {
               Subscribe to our newsletter for the latest updates on governance proposals, community events, and new features.
             </p>
             
-            <div className="max-w-md mx-auto flex flex-col sm:flex-row gap-4">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="flex-grow px-4 py-3 rounded-lg border border-primary-400 bg-white/10 text-white placeholder-primary-200 focus:ring-2 focus:ring-white focus:border-transparent"
-              />
-              <button className="bg-white text-primary-600 hover:bg-primary-50 px-6 py-3 rounded-lg transition-colors duration-200 font-medium">
-                Subscribe
-              </button>
+            <form 
+  action="https://formspree.io/f/xzzrppdj" 
+  method="POST" 
+  className="max-w-md mx-auto flex flex-col sm:flex-row gap-4"
+>
+  <input 
+    type="email" 
+    name="email"
+    required
+    placeholder="Enter your email" 
+    className="flex-grow px-4 py-3 rounded-lg border border-primary-400 bg-white/10 text-white placeholder-primary-200 focus:ring-2 focus:ring-white focus:border-transparent"
+  />
+  <button 
+    type="submit"
+    className="bg-white text-primary-600 hover:bg-primary-50 px-6 py-3 rounded-lg transition-colors duration-200 font-medium"
+  >
+    Subscribe
+  </button>
+</form>
             </div>
           </div>
-        </div>
       </div>
     </section>
-  );
+    );
 };
 
 export default Community;

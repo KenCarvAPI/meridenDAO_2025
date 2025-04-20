@@ -16,10 +16,22 @@ const Hero: React.FC = () => {
               MeridenDAO is a community-led initiative aimed at building and strengthening the cryptocurrency scene in the cities across the UK.
             </p>
             <div className="mt-10 flex flex-col sm:flex-row justify-center lg:justify-start gap-4">
-              <button className="px-8 py-4 bg-primary-600 text-white rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-200 font-medium text-lg">
-                Join the Community
-              </button>
-            </div>
+  <a
+    href="https://t.me/+IzgQXVV44_M1YmE0"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-8 py-4 bg-primary-600 text-white rounded-lg shadow-lg hover:bg-primary-700 transition-all duration-200 font-medium text-lg text-center"
+  >
+    Join the Community
+  </a>
+  
+  <a
+    href="#newsletter"
+    className="px-8 py-4 bg-white text-primary-600 border border-primary-600 rounded-lg shadow-lg hover:bg-primary-50 transition-all duration-200 font-medium text-lg text-center"
+  >
+    Get Updates
+  </a>
+</div>
           </div>
           <div className="relative">
             <div className="w-full h-full bg-primary-100 absolute rounded-full scale-110 blur-3xl opacity-70 -z-10"></div>
@@ -41,12 +53,12 @@ const Hero: React.FC = () => {
             <div className="mt-2 text-neutral-600">Live Outside of London</div>
           </div>
           <div className="p-6 bg-white bg-opacity-80 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
-            <div className="font-bold text-3xl md:text-4xl text-primary-600">17</div>
-            <div className="mt-2 text-neutral-600">Key Cities in the North</div>
+            <div className="font-bold text-3xl md:text-4xl text-primary-600">76</div>
+            <div className="mt-2 text-neutral-600">Key UK Cities</div>
           </div>
           <div className="p-6 bg-white bg-opacity-80 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-xl transition-all duration-300">
             <div className="font-bold text-3xl md:text-4xl text-primary-600">1000's</div>
-            <div className="mt-2 text-neutral-600">Of Community Members</div>
+            <div className="mt-2 text-neutral-600">Of Active Community Members</div>
           </div>
         </div>
       </div>
