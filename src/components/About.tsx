@@ -18,10 +18,7 @@ const About: React.FC = () => {
             <h3 className="text-2xl font-bold text-neutral-900 mb-6">Our Mission</h3>
             <p className="text-neutral-600 mb-6">
               MeridenDAO is a community-led initiative aimed at building and strengthening the cryptocurrency 
-              scene across the UK. Our goal is to create vibrant, interconnected cryptocurrency communities that global blockchain projects can access.
-            </p>
-            <p className="text-neutral-600 mb-6">
-              Our goal is to shape progressive crypto policy and accelerate sustainable growth across the UK’s digital asset ecosystem.
+              scene across the UK. Our goal is to create vibrant, interconnected cryptocurrency community that global blockchain projects can access, contributing to the growth of the UK’s digital asset ecosystem.
             </p>
 
             <div className="mt-8 space-y-4">
